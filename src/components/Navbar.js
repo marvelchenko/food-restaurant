@@ -19,8 +19,8 @@ const Navbar = () => {
       <div>
         <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)] ">
           <div className="flex flex-row items-center cursor-pointer">
-            <span className:'text-amber-500'>
-              <BiRestaurant size={32} />
+            <span>
+              <BiRestaurant className:'text-amber-500' size={32} />
             </span>
             <h1 className="text-xl font-semibold">Eat & Smile</h1>
           </div>
